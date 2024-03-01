@@ -1,2 +1,5 @@
-# dotnet-api
-Beginner friendly api project to start learning dotnet
+# Stage Exercise 
+
+| Project | folder | 
+| --- | --- | 
+Beginner friendly api project to start learning dotnet | ... | 
