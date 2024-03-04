@@ -3,21 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Utenti.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\profilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\profilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240301150327_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetflixClone\\Migrations\\20240301150327_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,12 +23,45 @@
       "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\serietv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\stagione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\stagione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\migrations\\20240301150327_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\migrations\\20240301150327_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.ProfiloVideo.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304150949_checkingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetflixClone\\Migrations\\20240304150949_checkingresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\episodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\episodio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\models\\stagione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|solutionrelative:netflixclone\\models\\stagione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Episodi.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Stagioni.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304091104_SmallDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetflixClone\\Migrations\\20240304091104_SmallDetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A9C97B2F-276E-4B34-802D-E405B4A818E3}|NetflixClone\\NetflixClone.csproj|c:\\users\\atucci\\source\\repos\\netflixclone\\netflixclone\\netflixclone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -61,29 +75,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.Utenti [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Utenti.sql",
-              "ToolTip": "dbo.Utenti [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-01T15:45:38.249Z",
+              "DocumentIndex": 9,
+              "Title": "20240304150949_checkingresult.cs",
+              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304150949_checkingresult.cs",
+              "RelativeDocumentMoniker": "NetflixClone\\Migrations\\20240304150949_checkingresult.cs",
+              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304150949_checkingresult.cs",
+              "RelativeToolTip": "NetflixClone\\Migrations\\20240304150949_checkingresult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:09:50.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240301152257_addedNavigationProp.cs",
-              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs",
-              "RelativeDocumentMoniker": "NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs",
-              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs",
-              "RelativeToolTip": "NetflixClone\\Migrations\\20240301152257_addedNavigationProp.cs",
+              "DocumentIndex": 5,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Video.cs",
+              "RelativeDocumentMoniker": "NetflixClone\\Models\\Video.cs",
+              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Video.cs",
+              "RelativeToolTip": "NetflixClone\\Models\\Video.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T11:24:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.ProfiloVideo [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.ProfiloVideo.sql",
+              "ToolTip": "dbo.ProfiloVideo [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-04T10:09:45.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240304091104_SmallDetails.cs",
+              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304091104_SmallDetails.cs",
+              "RelativeDocumentMoniker": "NetflixClone\\Migrations\\20240304091104_SmallDetails.cs",
+              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304091104_SmallDetails.cs",
+              "RelativeToolTip": "NetflixClone\\Migrations\\20240304091104_SmallDetails.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T15:22:58.014Z",
+              "WhenOpened": "2024-03-04T09:11:04.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Stagioni [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Stagioni.sql",
+              "ToolTip": "dbo.Stagioni [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-04T09:08:56.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Episodi [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/NetflixCloneDb/True/SqlTable/dbo.Episodi.sql",
+              "ToolTip": "dbo.Episodi [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-04T09:08:39.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240304082746_UpdatedRelations.cs",
+              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs",
+              "RelativeDocumentMoniker": "NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs",
+              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs",
+              "RelativeToolTip": "NetflixClone\\Migrations\\20240304082746_UpdatedRelations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T08:27:46.203Z",
               "EditorCaption": ""
             },
             {
@@ -101,130 +174,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "NetflixCloneDbContext.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Data\\NetflixCloneDbContext.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Data\\NetflixCloneDbContext.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Data\\NetflixCloneDbContext.cs",
               "RelativeToolTip": "NetflixClone\\Data\\NetflixCloneDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBAAAAA0AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:57:47.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "NetflixClone",
+              "DocumentIndex": 16,
+              "Title": "NetflixClone.csproj",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\NetflixClone.csproj",
               "RelativeDocumentMoniker": "NetflixClone\\NetflixClone.csproj",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\NetflixClone.csproj",
               "RelativeToolTip": "NetflixClone\\NetflixClone.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-01T13:57:08.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T13:57:08.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Episodio.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Episodio.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\Episodio.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Episodio.cs",
               "RelativeToolTip": "NetflixClone\\Models\\Episodio.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAA6AAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:52:40.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Stagione.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Stagione.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\Stagione.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Stagione.cs",
               "RelativeToolTip": "NetflixClone\\Models\\Stagione.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAaAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:52:19.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "SerieTv.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\SerieTv.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\SerieTv.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\SerieTv.cs",
               "RelativeToolTip": "NetflixClone\\Models\\SerieTv.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:51:53.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "Film.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Film.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\Film.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Film.cs",
               "RelativeToolTip": "NetflixClone\\Models\\Film.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:51:38.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Video.cs",
-              "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Video.cs",
-              "RelativeDocumentMoniker": "NetflixClone\\Models\\Video.cs",
-              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Video.cs",
-              "RelativeToolTip": "NetflixClone\\Models\\Video.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwBgAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T13:51:10.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Profilo.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Profilo.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\Profilo.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Profilo.cs",
               "RelativeToolTip": "NetflixClone\\Models\\Profilo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAiAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:50:41.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Utente.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Utente.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Models\\Utente.cs",
               "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Models\\Utente.cs",
               "RelativeToolTip": "NetflixClone\\Models\\Utente.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAABTAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:50:22.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Program.cs",
               "RelativeDocumentMoniker": "NetflixClone\\Program.cs",
-              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Program.cs*",
-              "RelativeToolTip": "NetflixClone\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "ToolTip": "C:\\Users\\atucci\\source\\repos\\NetflixClone\\NetflixClone\\Program.cs",
+              "RelativeToolTip": "NetflixClone\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T13:47:10.173Z",
               "EditorCaption": ""

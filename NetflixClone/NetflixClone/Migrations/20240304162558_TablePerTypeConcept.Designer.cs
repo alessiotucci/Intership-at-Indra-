@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetflixClone.Data;
 
@@ -11,9 +12,11 @@ using NetflixClone.Data;
 namespace NetflixClone.Migrations
 {
     [DbContext(typeof(NetflixCloneDbContext))]
-    partial class NetflixCloneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240304162558_TablePerTypeConcept")]
+    partial class TablePerTypeConcept
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -148,7 +151,7 @@ namespace NetflixClone.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Video");
+                    b.ToTable("Videos");
 
                     b.UseTptMappingStrategy();
                 });
@@ -181,7 +184,7 @@ namespace NetflixClone.Migrations
                     b.Property<int>("DurataInMin")
                         .HasColumnType("int");
 
-                    b.ToTable("Film", (string)null);
+                    b.ToTable("Films", (string)null);
                 });
 
             modelBuilder.Entity("NetflixClone.Models.SerieTv", b =>
@@ -191,7 +194,7 @@ namespace NetflixClone.Migrations
                     b.Property<bool>("Completata")
                         .HasColumnType("bit");
 
-                    b.ToTable("SerieTv", (string)null);
+                    b.ToTable("SerieTvs", (string)null);
                 });
 
             modelBuilder.Entity("NetflixClone.Models.Episodio", b =>

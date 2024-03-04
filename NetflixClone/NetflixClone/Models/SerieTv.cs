@@ -11,6 +11,8 @@ namespace NetflixClone.Models
     {
         [Required]
         public bool Completata { get; set; }
-         
+
+        [Required]
+        public ICollection<Stagione> Stagioni { get; set; } = [];
     }
 }

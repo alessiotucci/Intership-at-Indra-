@@ -14,8 +14,9 @@ namespace NetflixClone.Models
         public int Id { get; set; }
 
         [Required]
-        [ForeignKey("Serie")]
-        public int Id_Serie { get; set; }
+        //[ForeignKey("SerieTv")]
+        public int SerieTvId { get; set; }
+        public SerieTv SerieTv { get; set; } = new SerieTv();
         [Required]
         public int NumeroStagione { get; set; }
         [Required]

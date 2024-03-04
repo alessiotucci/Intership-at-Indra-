@@ -13,15 +13,17 @@ namespace NetflixClone.Models
         [Required]
         public int Id { get; set; }
 
-        [Required][ForeignKey(nameof(Id))]
-        public int Id_Stagione { get; set; }
+        [Required] //[ForeignKey(nameof(Id))]
+        public int StagioneId { get; set; }
+        public Stagione Stagione { get; set; } = new Stagione();
+
         [Required]
-        public int Numero_Episodio { get; set; }
+        public int NumeroEpisodio { get; set; }
 
         [Required]
         [MaxLength(50)]
         public string Titolo { get; set; } = string.Empty;
 
-        public string Sinossi {  get; set; }
+        public string? Sinossi {  get; set; }
     }
 }

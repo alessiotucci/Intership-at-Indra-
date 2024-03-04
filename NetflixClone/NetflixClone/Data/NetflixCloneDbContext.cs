@@ -11,8 +11,44 @@ namespace NetflixClone.Data
     public class NetflixCloneDbContext : DbContext
     {
         public DbSet<Utente> Utenti {  get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Utente>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.NomeUtente)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.DataCreazione)
+                    .IsRequired();
+
+                entity.Property(e => e.Iban)
+                    .HasMaxLength(17);
+            });
+
+            modelBuilder.Entity<Profilo>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Nome)
+                .IsRequired()
+                .HasMaxLength(15);
+
+                entity.HasOne(e => e.Utente)
+                .WithMany(u => u.Profili)
+                .HasForeignKey(e => e.UtenteId)
+                .IsRequired();
+
+            });
+            modelBuilder.Entity<Film>().ToTable("Film");
+            modelBuilder.Entity<SerieTv>().ToTable("SerieTv");
+        }
+
         public DbSet<Profilo> Profili { get; set; }
-        public DbSet<Video> Videos { get; set; }
+        public DbSet<Video> Video { get; set; }
 
         /*Not sure if needed -----------------------*/
 
@@ -26,7 +62,15 @@ namespace NetflixClone.Data
 
         public NetflixCloneDbContext()
         {
-            ConnectionString = "Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
+            ConnectionString = /*"Server=wic-sqlserver2019.evh3apc7g6dbgqdw.westeurope.azurecontainer.io;Initial Catalog=esercizio-stage-Alessio;Persist Security Info=False;User ID=sa;Password=Inps2023!;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
+                */"Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
+        }
+
+        public NetflixCloneDbContext(DbContextOptions<NetflixCloneDbContext> options) : base(options)
+        {
+            ConnectionString = /*"Server=wic-sqlserver2019.evh3apc7g6dbgqdw.westeurope.azurecontainer.io;Initial Catalog=esercizio-stage-Alessio;Persist Security Info=False;User ID=sa;Password=Inps2023!;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
+                */"Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

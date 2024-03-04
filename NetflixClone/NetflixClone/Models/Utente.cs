@@ -11,17 +11,13 @@ namespace NetflixClone.Models
     {
         public int Id { get; set; }
         
-        [MaxLength(50)]
-        [Required]
-        public string Name { get; set; } = string.Empty;
+        public string NomeUtente { get; set; } = string.Empty;
 
-        [Required]
-        public DateTime Data_Subscription {  get; set; }
+        public DateTime DataCreazione {  get; set; }
 
-        [StringLength(17)]
         public string? Iban { get; set; }
 
         // Un utente puo avere piu profili 
-        public ICollection<Profilo> Profili { get; set; } // Collection Navigations
+        public ICollection<Profilo> Profili { get; set; } = []; // Collection Navigations
     }
 }

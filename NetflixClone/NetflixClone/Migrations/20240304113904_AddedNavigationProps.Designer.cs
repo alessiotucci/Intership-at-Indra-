@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetflixClone.Data;
 
@@ -11,9 +12,11 @@ using NetflixClone.Data;
 namespace NetflixClone.Migrations
 {
     [DbContext(typeof(NetflixCloneDbContext))]
-    partial class NetflixCloneDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240304113904_AddedNavigationProps")]
+    partial class AddedNavigationProps
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -109,14 +112,14 @@ namespace NetflixClone.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DataCreazione")
+                    b.Property<DateTime>("Data_Subscription")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Iban")
                         .HasMaxLength(17)
                         .HasColumnType("nvarchar(17)");
 
-                    b.Property<string>("NomeUtente")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -134,6 +137,11 @@ namespace NetflixClone.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -148,9 +156,11 @@ namespace NetflixClone.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Video");
+                    b.ToTable("Videos");
 
-                    b.UseTptMappingStrategy();
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Video");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("ProfiloVideo", b =>
@@ -181,7 +191,7 @@ namespace NetflixClone.Migrations
                     b.Property<int>("DurataInMin")
                         .HasColumnType("int");
 
-                    b.ToTable("Film", (string)null);
+                    b.HasDiscriminator().HasValue("Film");
                 });
 
             modelBuilder.Entity("NetflixClone.Models.SerieTv", b =>
@@ -191,7 +201,7 @@ namespace NetflixClone.Migrations
                     b.Property<bool>("Completata")
                         .HasColumnType("bit");
 
-                    b.ToTable("SerieTv", (string)null);
+                    b.HasDiscriminator().HasValue("SerieTv");
                 });
 
             modelBuilder.Entity("NetflixClone.Models.Episodio", b =>
@@ -238,24 +248,6 @@ namespace NetflixClone.Migrations
                     b.HasOne("NetflixClone.Models.Profilo", null)
                         .WithMany()
                         .HasForeignKey("VisualizzatoriId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("NetflixClone.Models.Film", b =>
-                {
-                    b.HasOne("NetflixClone.Models.Video", null)
-                        .WithOne()
-                        .HasForeignKey("NetflixClone.Models.Film", "Id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("NetflixClone.Models.SerieTv", b =>
-                {
-                    b.HasOne("NetflixClone.Models.Video", null)
-                        .WithOne()
-                        .HasForeignKey("NetflixClone.Models.SerieTv", "Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

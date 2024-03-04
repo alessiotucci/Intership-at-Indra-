@@ -10,17 +10,11 @@ namespace NetflixClone.Models
 {
     public class Profilo
     {
-        [Required]
         public int Id { get; set; }
 
-        // Profilo appartiene solo ad un Utente
-        [Required]
-        [ForeignKey("Utente")]
-        public int Id_Utente { get; set; }
-        public Utente Utente { get; set; } // Navigation property;
+        public int UtenteId { get; set; }
+        public Utente Utente { get; set; } = new Utente(); // Navigation property;
 
-        [Required]
-        [MaxLength(15)]
         public string Nome { get; set; } = string.Empty;
 
         public ICollection<Video>? VideoVisti { get; set; }
