@@ -62,14 +62,12 @@ namespace NetflixClone.Data
 
         public NetflixCloneDbContext()
         {
-            ConnectionString = /*"Server=wic-sqlserver2019.evh3apc7g6dbgqdw.westeurope.azurecontainer.io;Initial Catalog=esercizio-stage-Alessio;Persist Security Info=False;User ID=sa;Password=Inps2023!;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
-                */"Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
+            ConnectionString = "Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
         }
 
         public NetflixCloneDbContext(DbContextOptions<NetflixCloneDbContext> options) : base(options)
         {
-            ConnectionString = /*"Server=wic-sqlserver2019.evh3apc7g6dbgqdw.westeurope.azurecontainer.io;Initial Catalog=esercizio-stage-Alessio;Persist Security Info=False;User ID=sa;Password=Inps2023!;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;";
-                */"Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
+            ConnectionString = "Server=(localdb)\\mssqllocaldb;Database=NetflixCloneDb;Trusted_Connection=True;MultipleActiveResultSets=true";
 
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
