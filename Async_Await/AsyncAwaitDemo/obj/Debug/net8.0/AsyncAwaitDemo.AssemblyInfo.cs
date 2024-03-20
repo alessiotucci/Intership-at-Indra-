@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsyncAwaitDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182a926a9525d82d2b3f9f34d021315895a55649")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35b1b95050b44868f5fd879c9c4af7f8debb9a44")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsyncAwaitDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsyncAwaitDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
