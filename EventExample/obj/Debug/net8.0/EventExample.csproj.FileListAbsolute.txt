@@ -1,0 +1,15 @@
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\bin\Debug\net8.0\EventExample.exe
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\bin\Debug\net8.0\EventExample.deps.json
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\bin\Debug\net8.0\EventExample.runtimeconfig.json
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\bin\Debug\net8.0\EventExample.dll
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\bin\Debug\net8.0\EventExample.pdb
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.AssemblyInfoInputs.cache
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.AssemblyInfo.cs
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.csproj.CoreCompileInputs.cache
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.sourcelink.json
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.dll
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\refint\EventExample.dll
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.pdb
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\EventExample.genruntimeconfig.cache
+C:\Users\atucci\Desktop\Intership-at-Indra-\EventExample\obj\Debug\net8.0\ref\EventExample.dll

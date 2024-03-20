@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "beNN+1njh6BeyfCnyavuTKwuevamTKiCghpgyQba/+QkmjF1JFulboqht3fdGvE9NyUbsCZwIAWIXyLHwNMdyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\atucci\\Desktop\\Intership-at-Indra-\\EventExample\\EventExample.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus-wic.westeurope.azurecontainer.io:8081/repository/nuget-group/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
